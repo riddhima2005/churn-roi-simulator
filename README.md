@@ -16,6 +16,7 @@ Live demo: [Open the app](https://churn-roi-simulator-ftbkw29ceahy5qbnqfjx9e.str
 ## Results
 
 | Model | Test ROC-AUC |
+|---|---|
 | Logistic Regression (raw columns) | 0.836 |
 | Logistic Regression (with new features) | 0.835 |
 | LightGBM (raw columns) | 0.826 |
@@ -30,7 +31,7 @@ Other results:
 
 ## Architecture
 
-```
+```mermaid
 flowchart LR
   A[Telco churn CSV] --> B[Cleaning and EDA]
   B --> C[Train/test split]
