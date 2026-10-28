@@ -6,12 +6,14 @@ Live demo: [Open the app](https://churn-roi-simulator-ftbkw29ceahy5qbnqfjx9e.str
 
 ## What it does
 
-1. Churn prediction: Logistic Regression and LightGBM, explained with SHAP.
-2. Survival analysis: Kaplan-Meier curves and a Cox model for how long customers stay.
-3. Customer lifetime value (CLV): expected months remaining multiplied by monthly bill.
-4. Segmentation: KMeans groups customers by tenure and monthly bill.
-5. Uplift: a T-Learner estimates which customers respond to an email.
-6. ROI simulator: a Streamlit app that compares discount cost with expected savings.
+1. **Churn prediction:** Logistic Regression and LightGBM, explained with SHAP.
+2. **Survival analysis:** Kaplan-Meier curves and a Cox model for how long customers stay.
+3. **Customer lifetime value (CLV):** expected months remaining multiplied by monthly bill.
+4. **Segmentation:** KMeans groups customers by tenure and monthly bill.
+5. **Uplift:** a T-Learner estimates which customers respond to an email.
+6. **ROI simulator:** a Streamlit app that compares discount cost with expected savings.
+
+## Results
 
 ## Results
 
